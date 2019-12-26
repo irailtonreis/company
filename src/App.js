@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+// import ScrollToTop from "react-router-scroll-top";
 
 import Header from './components/Header';
 import Home from './components/Home';
@@ -12,7 +13,9 @@ import Contact from './components/Contact';
 class App extends Component {
   render(){
     return(
-      <BrowserRouter>
+      <React.Fragment>
+
+      <Router>
         <div className="App">
           <Header/>
             <Route exact path="/" component={Home}/>
@@ -22,7 +25,8 @@ class App extends Component {
             <Route path="/contact" component={Contact}/>
           <Footer/>
          </div>
-        </BrowserRouter>
+        </Router>
+      </React.Fragment>
   
     );
 
