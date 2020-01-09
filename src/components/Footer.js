@@ -1,5 +1,7 @@
 import React from 'react';
+import { configureAnchors } from 'react-scrollable-anchor';
 
+configureAnchors({offset: -60, scrollDuration: 200});
 const Footer = props=>{
   return(
       <footer className='container-fluid text-center'>

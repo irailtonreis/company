@@ -1,11 +1,10 @@
 import React from 'react';
-import { ScrollableAnchor } from 'react-scrollable-anchor';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import { configureAnchors } from 'react-scrollable-anchor';
-
 
 import { Link } from 'react-router-dom';
 
-configureAnchors({ offset: -60, scrollDuration: 500 });
+configureAnchors({offset: -60, scrollDuration: 200});
 
 const Header = () => {
   return(
@@ -23,11 +22,11 @@ const Header = () => {
           </div>
           <div className='collapse navbar-collapse' id='myNavbar'>
             <ul className='nav navbar-nav navbar-right'>
-              <li><Link to="/">HOME</Link></li>
-              <li><Link to="/services">SERVICES</Link></li>
-              <li><Link to="/portifolio">PORTFOLIO</Link></li>
-              <li><Link to="/price">PRICING</Link></li>
-              <li><Link to="/contact">CONTACT</Link></li>
+              <li><Link to="/">Sobre</Link></li>
+              <li><Link to="/services">Serviços</Link></li>
+              <li><Link to="/portifolio">Portifólio</Link></li>
+              <li><Link to="/price">Preços</Link></li>
+              <li><Link to="/contact">Contato</Link></li>
             </ul>
           </div>
           </div>
@@ -36,12 +35,12 @@ const Header = () => {
 
     <div className='jumbotron text-center'>
         <h1>Site institucional</h1> 
-        <p>Non occaecat amet ut adipisicing ullamco dolor laboris sint. </p> 
+        <p>Irure commodo non ex irure sint ea quis.</p> 
         <form>
           <div className='input-group'>
             <input type='email' className='form-control' size='50' placeholder='Email Address' required />
             <div className='input-group-btn'>
-              <button type='button' className='btn btn-danger'>Subscribe</button>
+              <button type='button' className='btn btn-primary'>Subscribe</button>
             </div>
           </div>
         </form>

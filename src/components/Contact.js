@@ -7,10 +7,10 @@ const Contact = props =>{
       <h2 className='text-center'>CONTACT</h2>
       <div className='row'>
         <div className='col-sm-5'>
-          <p>Contact us and we'll get back to you within 24 hours.</p>
-          <p><span className='glyphicon glyphicon-map-marker'></span> Chicago, US</p>
+          <p>Av. Dr. Cardoso de Melo, 90, São Paulo</p>
+          <p><span className='glyphicon glyphicon-map-marker'></span> São Paulo, SP</p>
           <p><span className='glyphicon glyphicon-phone'></span> +00 1515151515</p>
-          <p><span className='glyphicon glyphicon-envelope'></span> myemail@something.com</p>
+          <p><span className='glyphicon glyphicon-envelope'></span> siteinstitucional@gmail.com</p>
         </div>
         <div className='col-sm-7 '>
           <div className='row'>

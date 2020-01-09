@@ -16,14 +16,14 @@ const Portifolio = props =>{
     </div>
     <div className='col-sm-4'>
       <div className='thumbnail'>
-        <img src={process.env.PUBLIC_URL + "/img/new-york.jpg"} alt='New York' width='400' height='300'/>
+        <img src={process.env.PUBLIC_URL + "/img/newyork.jpg"} alt='New York' width='400' height='300'/>
         <p><strong>New York</strong></p>
         <p>We built New York</p>
       </div>
     </div>
     <div className='col-sm-4'>
       <div className='thumbnail'>
-        <img src='sanfran.jpg' alt='San Francisco' width='400' height='300'/>
+        <img src={process.env.PUBLIC_URL + "/img/sanfran.jpg"} alt='San Francisco' width='400' height='300'/>
         <p><strong>San Francisco</strong></p>
         <p>Yes, San Fran is ours</p>
       </div>
